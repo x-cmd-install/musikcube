@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 11578106,
       "digest": "sha256:538ce8232aed27bee5dc12023055138dc6578d370dfb10358647a44cdc615489",
-      "download_count": 820,
+      "download_count": 821,
       "created_at": "2025-09-21T07:16:18Z",
       "updated_at": "2025-09-21T07:16:20Z",
       "browser_download_url": "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_linux_x86.deb"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 11526959,
       "digest": "sha256:a58b2ce681d5e69f0f14f410bf9b8d56f92862fefea547350b9d74e046b30bcd",
-      "download_count": 537,
+      "download_count": 539,
       "created_at": "2025-09-21T07:16:20Z",
       "updated_at": "2025-09-21T07:16:22Z",
       "browser_download_url": "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_linux_x86.rpm"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 11674674,
       "digest": "sha256:a472ebb35c619da5a6237a5c7042c56c82c98c157346914cf239a993a046be2a",
-      "download_count": 2432,
+      "download_count": 2435,
       "created_at": "2025-09-21T07:16:24Z",
       "updated_at": "2025-09-21T07:16:26Z",
       "browser_download_url": "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_linux_x86_64.deb"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 11594799,
       "digest": "sha256:e7e7f2a8b60de4fb3299e728dfc8f57dd8851aacff48cc134993ed5626b5de2a",
-      "download_count": 467,
+      "download_count": 468,
       "created_at": "2025-09-21T07:16:26Z",
       "updated_at": "2025-09-21T07:16:27Z",
       "browser_download_url": "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_linux_x86_64.rpm"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 11001082,
       "digest": "sha256:86ce5dfdae55099b7d1cad94c1bff13df7a656684ada1ee13174ca70bdb0966c",
-      "download_count": 3091,
+      "download_count": 3099,
       "created_at": "2025-09-21T07:16:27Z",
       "updated_at": "2025-09-21T07:16:29Z",
       "browser_download_url": "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_linux_x86_64.tar.bz2"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 13872682,
       "digest": "sha256:668298adbf41c346766afac6aa2e7e945f3f257bbb1ae9057d1ddf60ebe057f5",
-      "download_count": 1748,
+      "download_count": 1749,
       "created_at": "2025-09-21T07:16:34Z",
       "updated_at": "2025-09-21T07:16:36Z",
       "browser_download_url": "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_win32.zip"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 15593083,
       "digest": "sha256:9c908eacc4b3d0bf494bc0a72048a9f3bb59ed6471c4571da8f5441e277fc883",
-      "download_count": 3612,
+      "download_count": 3620,
       "created_at": "2025-09-21T07:16:36Z",
       "updated_at": "2025-09-21T07:16:39Z",
       "browser_download_url": "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_win64.zip"
