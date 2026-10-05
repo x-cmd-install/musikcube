@@ -30,8 +30,8 @@ x install musikcube
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (2/10) — Found 4/16 approved changesets -- score normalized to 2
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## 源代码
@@ -48,7 +48,7 @@ x install musikcube
 
 ## 流行度
 
-- **Star**: 4,852 · **Fork**: 320 · **开放 issue**: 594 · **贡献者**: 43
+- **Star**: 4,853 · **Fork**: 320 · **开放 issue**: 594 · **贡献者**: 43
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install musikcube
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-08-05 | 0 | 0 | 2 | 0 | 3 | 0 |
-| 90d | 2026-07-06 | 0 | 0 | 2 | 0 | 4 | 0 |
-| last180d | 2026-04-07 | 0 | 0 | 2 | 0 | 10 | 0 |
-| 360d | 2025-10-09 | 0 | 0 | 5 | 5 | 15 | 1 |
-| last720d | 2024-10-14 | 1 | 1 | 8 | 10 | 29 | 25 |
+| 30d | 2026-09-05 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-08-06 | 0 | 0 | 2 | 0 | 3 | 0 |
+| 90d | 2026-07-07 | 0 | 0 | 2 | 0 | 4 | 0 |
+| last180d | 2026-04-08 | 0 | 0 | 2 | 0 | 10 | 0 |
+| 360d | 2025-10-10 | 0 | 0 | 5 | 5 | 15 | 1 |
+| last720d | 2024-10-15 | 1 | 1 | 8 | 10 | 29 | 25 |
 
 ## Release 资产
 
@@ -96,4 +96,4 @@ musikcube 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261004.yml` · 2026-10-04T06:49:05Z._
+_数据快照: `data/card/261005.yml` · 2026-10-05T06:46:15Z._
