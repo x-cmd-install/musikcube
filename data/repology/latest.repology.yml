@@ -1,3 +1,16 @@
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: musikcube
+  binname: musikcube-sndio
+  visiblename: musikcube-sndio
+  version: 3.0.5
+  origversion: 3.0.5_1
+  status: newest
+  summary: Terminal-based music player in c++ - sndio output plugin
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - BSD-3-Clause
 - repo: alpine_edge
   subrepo: testing
   srcname: musikcube
@@ -89,14 +102,6 @@
     - fallback-mnt-alpine@repology
   licenses:
     - BSD-3-Clause
-- repo: gnuguix
-  srcname: musikcube
-  binname: musikcube
-  visiblename: musikcube
-  version: 3.0.5
-  origversion: null
-  status: newest
-  summary: Terminal-based music player, library, and streaming audio server
 - repo: alpine_edge
   subrepo: testing
   srcname: musikcube
@@ -108,6 +113,18 @@
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (stockencoders plugin)
   maintainers:
     - fallback-mnt-alpine@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_unstable
+  srcname: musikcube
+  visiblename: musikcube
+  version: 3.0.5
+  origversion: null
+  status: newest
+  summary: Terminal-based music player, library, and streaming audio server
+  maintainers:
+    - aaron@fosslib.net
+    - surryhill+nix@gmail.com
   licenses:
     - BSD-3-Clause
 - repo: alpine_edge
@@ -236,6 +253,26 @@
     - BSD
   categories:
     - media-sound
+- repo: gnuguix
+  srcname: musikcube
+  binname: musikcube
+  visiblename: musikcube
+  version: 3.0.5
+  origversion: null
+  status: newest
+  summary: Terminal-based music player, library, and streaming audio server
+- repo: openbsd
+  srcname: audio/musikcube
+  binname: musikcube
+  visiblename: audio/musikcube
+  version: 3.0.5
+  origversion: 3.0.5p0
+  status: newest
+  summary: terminal-based music player
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - audio
 - repo: haikuports_master
   srcname: media-sound/musikcube
   visiblename: media-sound/musikcube
@@ -371,30 +408,6 @@
     - surryhill+nix@gmail.com
   licenses:
     - BSD-3-Clause
-- repo: nix_unstable
-  srcname: musikcube
-  visiblename: musikcube
-  version: 3.0.5
-  origversion: null
-  status: newest
-  summary: Terminal-based music player, library, and streaming audio server
-  maintainers:
-    - aaron@fosslib.net
-    - surryhill+nix@gmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: openbsd
-  srcname: audio/musikcube
-  binname: musikcube
-  visiblename: audio/musikcube
-  version: 3.0.5
-  origversion: 3.0.5p0
-  status: newest
-  summary: terminal-based music player
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - audio
 - repo: pclinuxos
   srcname: musikcube
   visiblename: musikcube
@@ -555,19 +568,6 @@
   origversion: 3.0.5_1
   status: newest
   summary: Terminal-based music player in c++ - portaudio output plugin
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: musikcube
-  binname: musikcube-sndio
-  visiblename: musikcube-sndio
-  version: 3.0.5
-  origversion: 3.0.5_1
-  status: newest
-  summary: Terminal-based music player in c++ - sndio output plugin
   maintainers:
     - orphan@voidlinux.org
   licenses:
