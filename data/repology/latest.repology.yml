@@ -1,23 +1,10 @@
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: musikcube
-  binname: musikcube-sndio
-  visiblename: musikcube-sndio
-  version: 3.0.5
-  origversion: 3.0.5_1
-  status: newest
-  summary: Terminal-based music player in c++ - sndio output plugin
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - BSD-3-Clause
 - repo: alpine_edge
   subrepo: testing
   srcname: musikcube
   binname: musikcube
   visiblename: musikcube
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server
   maintainers:
@@ -30,7 +17,7 @@
   binname: musikcube-dev
   visiblename: musikcube-dev
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (development files)
   maintainers:
@@ -43,7 +30,7 @@
   binname: musikcube-plugin-all
   visiblename: musikcube-plugin-all
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (all plugins)
   maintainers:
@@ -56,7 +43,7 @@
   binname: musikcube-plugin-httpdatastream
   visiblename: musikcube-plugin-httpdatastream
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (httpdatastream plugin)
   maintainers:
@@ -69,7 +56,7 @@
   binname: musikcube-plugin-mpris
   visiblename: musikcube-plugin-mpris
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (mpris plugin)
   maintainers:
@@ -82,7 +69,7 @@
   binname: musikcube-plugin-openmpt
   visiblename: musikcube-plugin-openmpt
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (openmpt plugin)
   maintainers:
@@ -95,7 +82,7 @@
   binname: musikcube-plugin-server
   visiblename: musikcube-plugin-server
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (server plugin)
   maintainers:
@@ -108,23 +95,11 @@
   binname: musikcube-plugin-stockencoders
   visiblename: musikcube-plugin-stockencoders
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (stockencoders plugin)
   maintainers:
     - fallback-mnt-alpine@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_unstable
-  srcname: musikcube
-  visiblename: musikcube
-  version: 3.0.5
-  origversion: null
-  status: newest
-  summary: Terminal-based music player, library, and streaming audio server
-  maintainers:
-    - aaron@fosslib.net
-    - surryhill+nix@gmail.com
   licenses:
     - BSD-3-Clause
 - repo: alpine_edge
@@ -133,7 +108,7 @@
   binname: musikcube-plugin-supereqdsp
   visiblename: musikcube-plugin-supereqdsp
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (supereqdsp plugin)
   maintainers:
@@ -146,7 +121,7 @@
   binname: musikcube-plugin-taglibreader
   visiblename: musikcube-plugin-taglibreader
   version: 3.0.5
-  origversion: 3.0.5-r0
+  origversion: 3.0.5-r1
   status: newest
   summary: a cross-platform, terminal-based music player, audio engine, metadata indexer, and server (taglibreader plugin)
   maintainers:
@@ -169,6 +144,21 @@
     - BSD-3-Clause
   categories:
     - Sound
+- repo: rpmsphere
+  srcname: musikcube
+  binnames:
+    - musikcube
+    - musikcube-debuginfo
+    - musikcube-debugsource
+  visiblename: musikcube
+  version: 0.93.1
+  origversion: 0.93.1-1
+  status: outdated
+  summary: A cross-platform, terminal-based audio engine, library, player and server written in C++
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Applications/Multimedia
 - repo: altsisyphus
   srcname: musikcube
   binnames:
@@ -261,18 +251,6 @@
   origversion: null
   status: newest
   summary: Terminal-based music player, library, and streaming audio server
-- repo: openbsd
-  srcname: audio/musikcube
-  binname: musikcube
-  visiblename: audio/musikcube
-  version: 3.0.5
-  origversion: 3.0.5p0
-  status: newest
-  summary: terminal-based music player
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - audio
 - repo: haikuports_master
   srcname: media-sound/musikcube
   visiblename: media-sound/musikcube
@@ -408,6 +386,30 @@
     - surryhill+nix@gmail.com
   licenses:
     - BSD-3-Clause
+- repo: nix_unstable
+  srcname: musikcube
+  visiblename: musikcube
+  version: 3.0.5
+  origversion: null
+  status: newest
+  summary: Terminal-based music player, library, and streaming audio server
+  maintainers:
+    - aaron@fosslib.net
+    - surryhill+nix@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: openbsd
+  srcname: audio/musikcube
+  binname: musikcube
+  visiblename: audio/musikcube
+  version: 3.0.5
+  origversion: 3.0.5p0
+  status: newest
+  summary: terminal-based music player
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - audio
 - repo: pclinuxos
   srcname: musikcube
   visiblename: musikcube
@@ -447,21 +449,6 @@
     - BSD-3-Clause
   categories:
     - Sound
-- repo: rpmsphere
-  srcname: musikcube
-  binnames:
-    - musikcube
-    - musikcube-debuginfo
-    - musikcube-debugsource
-  visiblename: musikcube
-  version: 0.93.1
-  origversion: 0.93.1-1
-  status: outdated
-  summary: A cross-platform, terminal-based audio engine, library, player and server written in C++
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Applications/Multimedia
 - repo: scoop
   subrepo: extras
   binname: musikcube
@@ -568,6 +555,19 @@
   origversion: 3.0.5_1
   status: newest
   summary: Terminal-based music player in c++ - portaudio output plugin
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: musikcube
+  binname: musikcube-sndio
+  visiblename: musikcube-sndio
+  version: 3.0.5
+  origversion: 3.0.5_1
+  status: newest
+  summary: Terminal-based music player in c++ - sndio output plugin
   maintainers:
     - orphan@voidlinux.org
   licenses:
