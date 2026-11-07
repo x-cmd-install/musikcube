@@ -1,3 +1,26 @@
+- repo: homebrew
+  srcname: musikcube
+  visiblename: musikcube
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal-based audio engine, library, player and server
+- repo: altsisyphus
+  srcname: musikcube
+  binnames:
+    - musikcube
+    - musikcube-debuginfo
+  visiblename: musikcube
+  version: 3.0.5
+  origversion: 3.0.5-alt2
+  status: newest
+  summary: a cross-platform, terminal-based audio engine, library, player and server written in c++
+  maintainers:
+    - alexvk@altlinux.org
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Sound
 - repo: alpine_edge
   subrepo: testing
   srcname: musikcube
@@ -115,6 +138,19 @@
     - fallback-mnt-alpine@repology
   licenses:
     - BSD-3-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: musikcube
+  binname: musikcube-sndio
+  visiblename: musikcube-sndio
+  version: 3.0.5
+  origversion: 3.0.5_1
+  status: newest
+  summary: Terminal-based music player in c++ - sndio output plugin
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - BSD-3-Clause
 - repo: alpine_edge
   subrepo: testing
   srcname: musikcube
@@ -129,37 +165,6 @@
   licenses:
     - BSD-3-Clause
 - repo: alt_p11
-  srcname: musikcube
-  binnames:
-    - musikcube
-    - musikcube-debuginfo
-  visiblename: musikcube
-  version: 3.0.5
-  origversion: 3.0.5-alt2
-  status: newest
-  summary: a cross-platform, terminal-based audio engine, library, player and server written in c++
-  maintainers:
-    - alexvk@altlinux.org
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Sound
-- repo: rpmsphere
-  srcname: musikcube
-  binnames:
-    - musikcube
-    - musikcube-debuginfo
-    - musikcube-debugsource
-  visiblename: musikcube
-  version: 0.93.1
-  origversion: 0.93.1-1
-  status: outdated
-  summary: A cross-platform, terminal-based audio engine, library, player and server written in C++
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Applications/Multimedia
-- repo: altsisyphus
   srcname: musikcube
   binnames:
     - musikcube
@@ -236,7 +241,7 @@
   version: 3.0.5
   origversion: null
   status: newest
-  summary: Excellent terminal music player, support almost every known sound system.
+  summary: Excellent terminal music player, support almost every known sound system
   maintainers:
     - zhuyifei1999@gmail.com
   licenses:
@@ -265,13 +270,6 @@
   version: 3.0.5
   origversion: null
   status: newest
-  summary: Terminal-based audio engine, library, player and server
-- repo: homebrew
-  srcname: musikcube
-  visiblename: musikcube
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: Terminal-based audio engine, library, player and server
 - repo: liguros_stable
   srcname: media-sound/musikcube
@@ -419,6 +417,15 @@
   summary: Terminal Music Player
   categories:
     - Sound
+- repo: wikidata
+  srcname: Q2523600
+  visiblename: MusikCube
+  version: 3.0.5
+  origversion: null
+  status: newest
+  summary: console audio player
+  licenses:
+    - 3-clause BSD License
 - repo: ravenports
   srcname: musikcube
   binname: musikcube
@@ -449,6 +456,21 @@
     - BSD-3-Clause
   categories:
     - Sound
+- repo: rpmsphere
+  srcname: musikcube
+  binnames:
+    - musikcube
+    - musikcube-debuginfo
+    - musikcube-debugsource
+  visiblename: musikcube
+  version: 0.93.1
+  origversion: 0.93.1-1
+  status: outdated
+  summary: A cross-platform, terminal-based audio engine, library, player and server written in C++
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Applications/Multimedia
 - repo: scoop
   subrepo: extras
   binname: musikcube
@@ -559,25 +581,3 @@
     - orphan@voidlinux.org
   licenses:
     - BSD-3-Clause
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: musikcube
-  binname: musikcube-sndio
-  visiblename: musikcube-sndio
-  version: 3.0.5
-  origversion: 3.0.5_1
-  status: newest
-  summary: Terminal-based music player in c++ - sndio output plugin
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: wikidata
-  srcname: Q2523600
-  visiblename: MusikCube
-  version: 3.0.5
-  origversion: null
-  status: newest
-  summary: console audio player
-  licenses:
-    - 3-clause BSD License
