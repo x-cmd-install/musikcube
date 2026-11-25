@@ -31,8 +31,8 @@ Overall score: **1.9 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (-1/10) — No tokens found
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (2/10) — Found 4/16 approved changesets -- score normalized to 2
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 
 ## Source
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 2 | 0 | 8 | 0 |
-| 360d | 2025-11-29 | 0 | 0 | 4 | 4 | 12 | 1 |
-| last720d | 2024-12-04 | 1 | 1 | 8 | 9 | 27 | 25 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 2 | 0 | 7 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 4 | 4 | 12 | 1 |
+| last720d | 2024-12-05 | 1 | 1 | 8 | 9 | 27 | 25 |
 
 ## Release assets
 
@@ -87,17 +87,6 @@ Lowest-scoring checks:
 | [musikcube_3.0.5_win64.zip](https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_win64.zip) | 14.9 MiB | `native/win/x64` |
 | [musikdroid_3.0.3.apk](https://github.com/clangen/musikcube/releases/download/3.0.5/musikdroid_3.0.3.apk) | 10.7 MiB | `other` |
 
-## Distribution status
-
-Reported by **48** distros on [repology.org](https://repology.org/project/musikcube). **36** are ✅ on the latest upstream release, **9** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `3.0.5` | ✅ latest |
-| Nix unstable | `3.0.5` | ✅ latest |
-| Void | `3.0.5` | ✅ latest |
-| Alpine edge | `3.0.5` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for musikcube lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `musikcube` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +96,4 @@ Install metadata for musikcube lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:47:25Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:16:30Z._
